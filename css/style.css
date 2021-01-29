@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+div>.col-1,
+div> .col-12,
+div> .col-8,
+div> .col-2,
+div> .col-6,
+div> .col-4,
+div> .col-3 {
+  padding: 150px 0;
+  text-align: center;
+}
+
+#ftr {
+background-color: #dd143787;
+}

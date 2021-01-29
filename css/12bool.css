@@ -1,0 +1,38 @@
+.debug .container {
+  height: 300px;
+  border: 1px solid;
+}
+
+.debug .container [class*="col-"] {
+  height: 300px;
+  border: 1px solid black;
+  background-color: pink;
+}
+
+.col-1 {
+  width: calc(( 100% / 12 ) * 1);
+}
+
+.col-12 {
+  width: calc(( 100% / 12 ) * 12);
+}
+
+.col-8 {
+  width: calc(( 100% / 12 ) * 8);
+}
+
+.col-2 {
+  width: calc(( 100% / 12 ) * 2);
+}
+
+.col-6 {
+  width: calc(( 100% / 12 ) * 6);
+}
+
+.col-4 {
+  width: calc(( 100% / 12 ) * 4);
+}
+
+.col-3 {
+  width: calc(( 100% / 12 ) * 3);
+}
